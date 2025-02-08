@@ -38,3 +38,65 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
   - [x] Generar un índice aleatorio
   - [x] Obtener el nombre sorteado
   - [x] Mostrar el resultado
+
+# ✨ Funcionalidades
+
+En esta sección se describirá todas las funcionalidades que posee el proyecto.
+
+> ![Presentación del proyecto](./assets/presentacion.gif)
+> Ejemplo de uso del proyecto
+
+## ➕ Agregar amigos
+
+Mediante un `input` de tipo texto el usuario puede ingresar un texto que representa el nombre de un amigo.
+
+Con el botón "_Añadir_" se agrega el valor de la
+entrada a un lista.
+
+<p align='center'>
+  <img width="400" src="./assets/entrada.jpg"/>
+</p>
+
+La entrada de datos posee un sistema de validación para verificar si la entrada **está vacía o ya está agregada en la lista**.
+
+<table align='center'>
+  <tr>
+    <td>
+      <img width="400" src="./assets/entrada-vacia.jpg"/>
+      <h3 align="center">
+        Entrada vacía
+      </h3>
+    </td>
+    <td>
+      <img width="400" src="./assets/entrada-repetida.jpg"/>
+      <h3 align="center">
+        Entrada repetida
+      </h3>
+    </td>
+  </tr>
+</table>
+
+## 📄 Lista de amigos
+
+**Cada vez que se agrega un nuevo nombre** se actualiza un sector de la página para mostrar el estado de la lista.
+
+<p align="center">
+  <img width="400" src="./assets/lista.jpg"/>
+</p>
+
+## 🎉 Sorteo de amigo
+
+Una vez que el usuario haya terminado de agregar los nombres, puede oprimir el botón de "`Sortear Amigo`" para obtener un elemento de la lista al azar.
+
+<table align="center">
+  <tr>
+    <td>
+      <img width="400" src="./assets/sorteo.jpg"/>
+      <h3 align="center">Resultado</h3>
+    </td>
+    <td>
+      <img width="400" src="./assets/sorteo-error.jpg"/>
+      <h3 align="center">Lista vacía</h3>
+    </td>
+  </tr>
+</table>
