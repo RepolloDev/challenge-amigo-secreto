@@ -43,8 +43,9 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
 
 En esta sección se describirá todas las funcionalidades que posee el proyecto.
 
-> ![Presentación del proyecto](./assets/photos/presentacion.gif)
-> Ejemplo de uso del proyecto
+<p align="center">
+  <img width="400" src="./assets/photos/presentacion.gif"/>
+</p>
 
 ## ➕ Agregar amigos
 
