@@ -28,11 +28,11 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
   - [x] Validar la entrada
   - [x] Actualizar el array de amigos
   - [x] Limpiar el campo de entrada
-- [ ] 🔃 **Función para actualizar la lista de amigos**
-  - [ ] Obtener el elemento de la lista
-  - [ ] Limpiar la lista existente
-  - [ ] Iterar sobre el arreglo
-  - [ ] Agregar elementos a la lista
+- [x] 🔃 **Función para actualizar la lista de amigos**
+  - [x] Obtener el elemento de la lista
+  - [x] Limpiar la lista existente
+  - [x] Iterar sobre el arreglo
+  - [x] Agregar elementos a la lista
 - [ ] 🎲 **Función para sortear los amigos**
   - [ ] Validar que haya amigos disponibles
   - [ ] Generar un índice aleatorio

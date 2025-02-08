@@ -25,6 +25,20 @@ function limpiarEntrada(id) {
   elemento.value = "";
 }
 
+function actualizarAmigos() {
+  // Obtener el elemento donde se mostrarán los amigos
+  const idLista = "listaAmigos";
+  const lista = obtenerElemento(idLista);
+
+  // Limpiar la lista de amigos
+  limpiarElemento(idLista);
+
+  // Agregar todos los amigos a la lista
+  for (let i = 0; i < amigos.length; i++) {
+    lista.innerHTML += `<li>${amigos[i]}</li>`;
+  }
+}
+
 function agregarAmigo() {
   // Obtener el amigo ingresado
   const idEntrada = "amigo";
@@ -46,4 +60,7 @@ function agregarAmigo() {
   // Agregar amigo a la lista y limpiar la entrada
   amigos.push(amigo);
   limpiarEntrada(idEntrada);
+
+  // Actualizar la lista de amigos
+  actualizarAmigos();
 }
