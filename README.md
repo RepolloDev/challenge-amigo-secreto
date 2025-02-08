@@ -22,7 +22,7 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
 
 # 🎯 Objetivos
 
-- [ ] 💼 **Crear un array para almacenar los nombres**
+- [x] 💼 **Crear un array para almacenar los nombres**
 - [ ] 😗 **Función para agregar amigos**
   - [ ] Capturar el valor del campo de entrada
   - [ ] Validar la entrada
