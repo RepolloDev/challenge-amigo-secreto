@@ -6,6 +6,12 @@ function obtenerElemento(id) {
   return elemento;
 }
 
+function limpiarElemento(id) {
+  // Limpiar el contenido de un elemento
+  const elemento = obtenerElemento(id);
+  elemento.innerHTML = "";
+}
+
 function obtenerEntrada(id) {
   // Obtener el valor ingresado en un campo de texto
   const elemento = obtenerElemento(id);
