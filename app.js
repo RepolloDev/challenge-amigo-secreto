@@ -64,3 +64,19 @@ function agregarAmigo() {
   // Actualizar la lista de amigos
   actualizarAmigos();
 }
+
+function sortearAmigo() {
+  // Verificar si hay amigos para sortear
+  if (amigos.length === 0) {
+    alert("No hay amigos para sortear");
+    return;
+  }
+
+  // Sortear un amigo al azar
+  const index = Math.floor(Math.random() * amigos.length);
+  const amigoSorteado = amigos[index];
+
+  // Mostrar el amigo sorteado
+  const salida = obtenerElemento("resultado");
+  salida.innerHTML = amigoSorteado;
+}

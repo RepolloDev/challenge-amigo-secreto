@@ -33,8 +33,8 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
   - [x] Limpiar la lista existente
   - [x] Iterar sobre el arreglo
   - [x] Agregar elementos a la lista
-- [ ] 🎲 **Función para sortear los amigos**
-  - [ ] Validar que haya amigos disponibles
-  - [ ] Generar un índice aleatorio
-  - [ ] Obtener el nombre sorteado
-  - [ ] Mostrar el resultado
+- [x] 🎲 **Función para sortear los amigos**
+  - [x] Validar que haya amigos disponibles
+  - [x] Generar un índice aleatorio
+  - [x] Obtener el nombre sorteado
+  - [x] Mostrar el resultado
