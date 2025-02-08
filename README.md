@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-    <img width="600" src="./assets/capture-page.png"/>
+    <img width="600" src="./assets/photos/capture-page.png"/>
 </p>
 
 Este es la solución al _Challenge_ de la formación de **lógica de programación**, del programa [Oracle One Next Education](https://www.oracle.com/ar/education/oracle-next-education/).
@@ -43,7 +43,7 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
 
 En esta sección se describirá todas las funcionalidades que posee el proyecto.
 
-> ![Presentación del proyecto](./assets/presentacion.gif)
+> ![Presentación del proyecto](./assets/photos/presentacion.gif)
 > Ejemplo de uso del proyecto
 
 ## ➕ Agregar amigos
@@ -54,7 +54,7 @@ Con el botón "_Añadir_" se agrega el valor de la
 entrada a un lista.
 
 <p align='center'>
-  <img width="400" src="./assets/entrada.jpg"/>
+  <img width="400" src="./assets/photos/entrada.jpg"/>
 </p>
 
 La entrada de datos posee un sistema de validación para verificar si la entrada **está vacía o ya está agregada en la lista**.
@@ -62,13 +62,13 @@ La entrada de datos posee un sistema de validación para verificar si la entrada
 <table align='center'>
   <tr>
     <td>
-      <img width="400" src="./assets/entrada-vacia.jpg"/>
+      <img width="400" src="./assets/photos/entrada-vacia.jpg"/>
       <h3 align="center">
         Entrada vacía
       </h3>
     </td>
     <td>
-      <img width="400" src="./assets/entrada-repetida.jpg"/>
+      <img width="400" src="./assets/photos/entrada-repetida.jpg"/>
       <h3 align="center">
         Entrada repetida
       </h3>
@@ -81,7 +81,7 @@ La entrada de datos posee un sistema de validación para verificar si la entrada
 **Cada vez que se agrega un nuevo nombre** se actualiza un sector de la página para mostrar el estado de la lista.
 
 <p align="center">
-  <img width="400" src="./assets/lista.jpg"/>
+  <img width="400" src="./assets/photos/lista.jpg"/>
 </p>
 
 ## 🎉 Sorteo de amigo
@@ -91,11 +91,11 @@ Una vez que el usuario haya terminado de agregar los nombres, puede oprimir el b
 <table align="center">
   <tr>
     <td>
-      <img width="400" src="./assets/sorteo.jpg"/>
+      <img width="400" src="./assets/photos/sorteo.jpg"/>
       <h3 align="center">Resultado</h3>
     </td>
     <td>
-      <img width="400" src="./assets/sorteo-error.jpg"/>
+      <img width="400" src="./assets/photos/sorteo-error.jpg"/>
       <h3 align="center">Lista vacía</h3>
     </td>
   </tr>
