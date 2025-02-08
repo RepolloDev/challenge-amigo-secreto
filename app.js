@@ -1,14 +1,22 @@
 let amigos = [];
 
+function obtenerElemento(id) {
+  // Obtener un elemento de la página
+  const elemento = document.getElementById(id);
+  return elemento;
+}
+
 function obtenerEntrada(id) {
   // Obtener el valor ingresado en un campo de texto
-  const entrada = document.getElementById(id).value;
-  return entrada;
+  const elemento = obtenerElemento(id);
+  const valor = elemento.value;
+  return valor;
 }
 
 function limpiarEntrada(id) {
   // Limpiar el valor ingresado en un campo de texto
-  document.getElementById(id).value = "";
+  const elemento = obtenerElemento(id);
+  elemento.value = "";
 }
 
 function agregarAmigo() {
