@@ -23,11 +23,11 @@ Este reto consiste en crear la lógica detrás de una aplicación para elegir un
 # 🎯 Objetivos
 
 - [x] 💼 **Crear un array para almacenar los nombres**
-- [ ] 😗 **Función para agregar amigos**
-  - [ ] Capturar el valor del campo de entrada
-  - [ ] Validar la entrada
-  - [ ] Actualizar el array de amigos
-  - [ ] Limpiar el campo de entrada
+- [x] 😗 **Función para agregar amigos**
+  - [x] Capturar el valor del campo de entrada
+  - [x] Validar la entrada
+  - [x] Actualizar el array de amigos
+  - [x] Limpiar el campo de entrada
 - [ ] 🔃 **Función para actualizar la lista de amigos**
   - [ ] Obtener el elemento de la lista
   - [ ] Limpiar la lista existente
